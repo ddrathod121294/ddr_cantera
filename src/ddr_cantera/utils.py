@@ -8,6 +8,7 @@ Important functions dealing with cantera.
 """
 
 import cantera as _ct
+from . import shared as _shared
 
 
 def get_density(pressure:float, temperature:float)->float:
