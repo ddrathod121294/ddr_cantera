@@ -13,6 +13,7 @@ with open('README.md') as readme_file:
 
 requirements = [
     "numpy",
+    "cantera",
 ]
 
 setup_requirements = []
@@ -20,7 +21,7 @@ setup_requirements = []
 test_requirements = []
 
 setup(
-    name='py5paisa',
+    name='ddr_cantera',
     version=version,
     packages=find_packages(where="src"),  # Required
     url="https://github.com/ddrathod121294/ddr_davis_data",
